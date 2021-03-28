@@ -1,0 +1,80 @@
+@media only screen and (max-width: 768px) {
+    /*Banner*/
+    div.banner {
+        width: 40%;
+        margin: 60px auto;
+    }
+
+    div.banner h1{
+        font-size: 29px;
+    }
+
+    /*Contatos*/
+    section.contatos {
+        grid-template-columns: 1fr;
+    }
+
+    section.contatos a {
+        display: block;
+        text-align: center;
+        margin: 30px 100px;
+    }
+
+    section.contatos a i {
+        margin: 15px;
+    }
+
+    section.contatos a p {
+        font-size: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Banner*/
+    div.banner {
+        width: 65%;
+        margin: 50px auto;
+    }
+
+    div.banner h1{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    /*Contatos*/
+    section.contatos {
+        margin-bottom: 50px;
+    }
+
+    section.contatos a {
+        margin: 10px 0px;
+    }
+
+    section.contatos a p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*Banner*/
+    div.banner {
+        width: 60%;
+    }
+
+    div.banner h1 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    /*Contatos*/
+    section.contatos a i {
+        margin: 10px;
+    }
+
+    section.contatos a p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}

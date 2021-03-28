@@ -1,0 +1,43 @@
+/*Banner*/
+div.banner {
+    width: 30%;
+    margin: 100px auto;
+    border-bottom: 1px solid rgb(0, 255, 234);
+}
+
+div.banner h1{
+    text-align: center;
+    color: rgb(232, 232, 232);
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+/*Contatos*/
+section.contatos {
+    margin: 0 auto 100px auto;
+}
+
+section.contatos a{
+    display: flex;
+    margin: 50px 100px;
+    text-decoration: none;
+}
+
+section.contatos a i {
+    margin: 0 15px;
+    font-size: 35px;
+    color: rgb(0, 255, 234);
+}
+
+section.contatos a p {
+    font-size: 25px;
+    color: rgb(232, 232, 232);
+    margin: 5px 0px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+
+section.contatos a p:hover {
+    color: rgb(0, 255, 234);
+    border-bottom: 3px solid rgb(0, 255, 234);
+}

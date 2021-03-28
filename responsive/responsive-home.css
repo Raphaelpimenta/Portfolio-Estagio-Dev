@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1024px) {
+    /*Banner*/
+    .resume {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    /*Banner*/
+    .resume {
+        font-size: 16px;
+        margin-top: 70px;
+    }
+
+    section.banner {
+        margin-bottom: 45px;
+    }
+
+    section.banner img {
+        width: 100%;
+    }
+
+    /*Apresentação*/
+    section.apresentacao {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    section.apresentacao div.foto {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.apresentacao div.foto img{
+        width: 25%;
+    }
+
+    section.apresentacao div.sobre {
+        text-align: center;
+    }
+
+    div.icons {
+        position: fixed;
+        background-color: rgb(10, 10, 10);
+        left: 0px;
+        top: 50%;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+
+    }
+
+    div.foto div.icons a{
+        display: block;
+        margin-left: 0px;
+        padding: 5px 10px;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 585px) {
+    /*Banner*/
+    section.banner {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    section.banner img {
+        display: none;
+    }
+
+    .resume {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    /*Apresentação*/
+    div.sobre h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Banner*/
+    section.banner {
+        margin: 50px 44px;
+    }
+
+    /*Apresentação*/
+    section.apresentacao {
+        margin: 50px 45px;
+    }
+
+    section.apresentacao div.foto img {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    /*Banner*/
+    section.banner {
+        margin: 50px 60px;
+    }
+
+    .resume {
+        font-size: 12px;
+    }
+
+    .resume p {
+        font-size: 15px;
+    }
+
+    /*Apresentação*/
+    section.apresentacao {
+        margin: 50px 60px;
+    }
+
+}

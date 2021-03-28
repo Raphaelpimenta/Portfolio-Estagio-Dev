@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1024px) {
+    /*Banner*/
+    .resume {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /*Banner*/
+    section.banner {
+        padding-bottom: 20px;
+        margin: 50px 100px;
+    }
+
+    .resume h2 {
+        font-size: 24px;
+    }
+
+    /*Projetos*/
+    .conteudo-carousel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px 30px;
+    }
+
+    /*Skills*/
+    section.skills h1{
+        margin-bottom: 45px;
+        font-size: 27px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 585px) {
+    /*Banner*/
+    section.banner {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    section.banner img {
+        display: none;
+    }
+
+    .resume {
+        margin-top: 0px;
+    }
+
+    /*Projetos*/
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Banner*/
+    section.banner {
+        margin: 50px 60px;
+    }
+
+    /*Projetos*/
+    .conteudo a.item h1 {
+        font-size: 20px;
+    }
+
+    /*Skills*/
+    section.skills div.conteudo-skills {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    /*Banner*/
+    .resume p {
+        font-size: 18px;
+    }
+
+    .resume h2 {
+        font-size: 20px;
+    }
+
+    /*Projetos*/
+    section.projetos h1#titulo {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .conteudo {
+        margin-bottom: 10px;
+    }
+
+    .conteudo a.item h1 {
+        font-size: 18px;
+    }
+
+    /*Skills*/
+    section.skills {
+        margin-bottom: 50px;
+    }
+
+    section.skills h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*Banner*/
+    .resume h2 {
+        font-size: 19px;
+    }
+
+    /*Section*/
+    section.banner {
+        margin: 50px;
+    }
+
+}

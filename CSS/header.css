@@ -1,0 +1,72 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    margin-top: 40px;
+    transition: 0.6s;
+}
+
+header div {
+    margin: 15px;
+}
+
+
+/*LOGO*/
+header div.logo {
+    display: flex;
+    font-size: 30px;
+    transition: 0.6s;
+    margin-left: 0px;
+}
+
+div.logo i {
+    color: rgb(0, 255, 234);
+    font-size: 28px;
+}
+
+div.logo p {
+    color: rgb(232, 232, 232);
+}
+
+div.logo p span {
+    margin: 0px 5px;
+    font-weight: 700;
+}
+
+div.logo i.logo-icon {
+    margin-left: 5px;
+}
+
+
+
+/*MENU*/
+nav .btnMenu {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    letter-spacing: 1px;
+}
+
+/*nav ul li a.menu-item-action:nth-child(1) {
+    border-bottom: 2px solid rgb(0, 255, 234);
+}*/
+
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(0, 255, 234);
+}

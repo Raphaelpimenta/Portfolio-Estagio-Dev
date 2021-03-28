@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+    /*Logo*/
+    header div.logo {
+        font-size: 25px;
+    }
+
+    div.logo i{
+        font-size: 22px;
+    }
+
+    /*Paginação*/
+    div.paginacao ul li a, footer h4 {
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 585px) {
+    /*Logo*/
+    header div.logo, div.logo i {
+        font-size: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    /*Logo*/
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    /*Footer*/
+    footer h4 {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    /*Conteiner*/
+    #container {
+        margin: 0px;
+    }
+    
+    /*Logo*/
+    header div.logo, div.logo i {
+        font-size: 18px;
+    }
+
+    /*Footer*/
+    footer h4 {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    /*Logo*/
+    header div.logo, div.logo i {
+        font-size: 16px;
+    }
+
+    /*Footer*/
+    footer h4 {
+        padding: 15px 13px;
+    }
+}

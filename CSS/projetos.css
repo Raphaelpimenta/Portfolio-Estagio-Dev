@@ -1,0 +1,143 @@
+/*Banner*/
+section.banner {
+    margin: 100px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(0, 255, 234);
+}
+
+.resume {
+    margin-top: 130px;
+    font-size: 23px;
+    color: rgb(232, 232, 232);
+}
+
+.resume p {
+    color: rgb(0, 255, 234);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume h2 {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+/*Projetos*/
+section.projetos {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid rgb(0, 255, 234);
+    margin-bottom: 50px;
+}
+
+section.projetos h1#titulo {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: rgb(232, 232, 232);
+    font-size: 30px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px 50px;
+    margin-bottom: 30px;
+}
+
+.conteudo a {
+    text-align: center;
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 255, 234);
+}
+
+.conteudo .item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudo a.item {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+}
+
+.conteudo a.item h1 {
+    font-weight: 300;
+}
+
+/*Skills*/
+section.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 100px;
+}
+
+section.skills h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(232, 232, 232)
+
+}
+
+section.skills div.conteudo-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.conteudo-skills a {
+    text-align: center;
+}
+
+div.conteudo-skills a i {
+    font-size: 50px;
+}
+
+div.conteudo-skills a i.fa-html5 {
+    color: rgb(249, 105, 14);
+}
+
+div.conteudo-skills a i.fa-css3-alt {
+    color: rgb(30, 139, 195);
+}
+
+div.conteudo-skills a i.fa-js {
+    color: rgb(247, 202, 24);
+}
+
+div.conteudo-skills a div.progress {
+    width: 40%;
+    height: 3%;
+    border-radius: 20px;
+    background-color: rgb(191, 191, 191);
+    margin: 10px auto;
+}
+
+div.progress div.progress-done {
+    display: block;
+    text-indent: -9999px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+div.progress div.html {
+    background-color: rgb(249, 105, 14);
+    width: 85%;
+}
+
+div.progress div.css {
+    background-color: rgb(30, 139, 195);
+    width: 75%;
+}
+
+div.progress div.js {
+    background-color: rgb(247, 202, 24);
+    width: 60%;
+}

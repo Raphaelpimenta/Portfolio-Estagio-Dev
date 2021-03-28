@@ -1,0 +1,17 @@
+div.icons {
+    position: fixed;
+    background-color: rgb(10, 10, 10);
+    left: 0px;
+    top: 50%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+}
+
+div.icons a{
+    color: rgb(0, 255, 234);
+    display: block;
+    font-size: 30px;
+    margin-left: 0px;
+    padding: 5px 10px;
+}
